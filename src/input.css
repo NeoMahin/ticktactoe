@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.set{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.box{
+     
+    border: 1px white solid;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.none{
+    pointer-events: none; 
+}
+
+.Xcolor{
+    color: #3b82f6;
+}
+.Ocolor{
+    color: #22c55e;
+}
